@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+
+.column {
+  float: left;
+  width: 33.30%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
